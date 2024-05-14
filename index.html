@@ -1,0 +1,427 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">Devarapu Bhanu Prakash</h2> 
+			</div> 
+			<div class="hamburger" id="hamburger"> 
+				<i class="fas fa-bars hamburger-icon"></i> 
+				<i class="fas fa-times cross-icon"></i> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#portfolio"> 
+							Portfolio 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#services"> 
+							Services 
+						</a> 
+					</li> 
+			
+				</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero"> 
+		<div class="intro"> 
+			<div class="headings"> 
+				<h3 class="greet-heading">Hello, I'm</h3> 
+				<h1 class="my-heading">Bhanu Prakash</h1> 
+				<h4 class="sub-heading"> 
+					I am a third year student pursuing Computer Science and Engineering at KL University, Guntur, India. I am always ready to have new experiences, meet new people, and learn new things. I find the idea of creating value for the people and impacting the world through my work.
+				</h4> 
+			</div> 
+			<div class="intro-buttons"> 
+				<button class="btn common-btn">Hire Me</button> 
+				<button class="btn common-btn" onclick="openResume()">Get Resume</button>
+			</div> 
+		</div> 
+	</section> 
+	
+	<script>
+		function openResume() {
+			window.open('https://drive.google.com/file/d/18XdEvwYnDKyWlN6OSTwD5tgqSg88gv3j/view?usp=drive_link', '_blank');
+		}
+	</script>
+	
+
+	<!-- Portfolio Section -->
+	<section class="portfolio" id="portfolio"> 
+		<div class="portfolio-heading"> 
+			<h1 class="my-heading text-center">Featured Portfolio</h1> 
+		</div> 
+		<div class="portfolio-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\webdesign.jpeg"
+								alt="Web Design Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">Web Design</h3> 
+						<p class="small-para blue-text">Designing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\webdevelopment.jpeg"
+								alt="Web Development Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para blue-text">Development</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\SOE.jpeg" alt="SEO Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para blue-text">Optimization</p> 
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\content.jpeg"
+								alt="Content Writting Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Content Writing 
+						</h3> 
+						<p class="small-para blue-text">Writing</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\dev.jpeg"
+								alt="Wordpress Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							WordPress Dev 
+						</h3> 
+						<p class="small-para blue-text"> 
+							Content Management System 
+						</p> 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card port-card"> 
+						<div class="image"> 
+							<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\editing.jpeg
+							"
+								alt="Video Editing Image"> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Video Editing 
+						</h3> 
+						<p class="small-para blue-text">Editing</p> 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+			</p> Hello! I'm D. Bhanu Prakash, a Computer Science student at KL University, Guntur, graduating in May 2026.
+		</p>  My academic journey started at Sri Chaitanya Junior College and School in Visakhapatnam.
+
+Academic and Technical Qualifications	</p> 
+
+</p> I'm pursuing a B. Tech in Computer Science, focusing on:	</p> 
+
+</p> - Content Creation: Scriptwriting, blog writing, and social media content development, increasing engagement by 20% for KL Radio.	</p> 
+</p> - Web Development: Proficient in HTML/CSS, JavaScript, and frameworks like React.js, AngularJS, and Vue.js.	</p> 
+</p> - Backend Development: Basic knowledge of Node.js, Express.js, and PHP.	</p> 
+</p> - Database Management: Experience with MySQL, MongoDB, and PostgreSQL.	</p> 
+			</p> 
+			Skills and Competencies
+
+		</p> - Programming Languages: C, Java, Python	</p> 
+	</p> - Communication and Collaboration: Strong team player with excellent communication skills.	</p> 
+</p> - Visual Communication: Designed templates and posters for KL Radio.	</p> 
+</p> - Software Proficiency: Basic Adobe Creative Suite, photo, and video editing.	</p> 
+</p> - Problem-Solving: Effective troubleshooting and debugging.	</p> 
+</p> - Continuous Learning: Always eager to learn new technologies.	</p> 
+
+</p>  Projects and Certifications
+
+- Developed a web-based movie and TV show recommendation system.
+- Certifications: PCAP (Python), Azure AI (AI 900), various Coursera certificates.	</p> 
+
+</p> Personal Details
+
+</p> - Languages Known: English, Telugu, Hindi	</p> 
+</p> - Date of Birth: 29-11-2003	</p> 
+</p> - Address: MIG-1/95 D.No. 31-36-133, Rajeev Nagar, Kurmannapalem, Visakhapatnam- 530046	</p> 
+
+</p> With excellent time management and organizational skills, I aim to leverage my abilities to contribute to innovative projects and grow in the tech field. Thank you for learning about me. I look forward to connecting and exploring opportunities.	</p>  
+			<p> 
+				
+		</div> 
+		<div class="about-image"> 
+			<img src="C:\Users\bhanu\OneDrive\Desktop\portfolio\my.png" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Services Section -->
+	<section class="services" id="services"> 
+		<div class="services-heading"> 
+			<h1 class="my-heading text-center">My Services</h1> 
+		</div> 
+		<div class="services-content"> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-paint-brush"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">Web Design</h3> 
+						<p class="small-para"> 
+							I have a strong foundation in web design, focusing on creating visually appealing and user-friendly interfaces. My skills include:
+                            HTML/CSS: Proficient in building and styling web pages, ensuring a clean and responsive design.
+                            Visual Communication: Designed templates and posters for KL Radio, demonstrating my ability to create visually engaging content.
+                            Adobe Creative Suite: Basic understanding, enhancing my ability to create and edit visual elements for web design.
+						</p> 
+						 
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fa-solid fa-code"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Web Development 
+						</h3> 
+						<p class="small-para"> 
+							As a Computer Science student, I have developed a comprehensive skill set in web development,
+							Front-End Development: Proficient in JavaScript and frameworks like React.js, AngularJS, and Vue.js.
+Backend Development: Basic knowledge of Node.js, Express.js, and PHP.
+Database Management: Experienced with MySQL, MongoDB, and PostgreSQL.
+Problem-Solving: Skilled at troubleshooting and debugging issues efficiently.
+                        </p> 
+						
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-chart-line"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text">SEO</h3> 
+						<p class="small-para"> 
+							While my primary focus has been on web development and content creation, I have a foundational understanding of SEO principles:
+                        Content Optimization: Developed targeted content campaigns for KL Radio, increasing social media engagement by 20%.
+                        Keyword Research: Basic knowledge of identifying and using relevant keywords to improve content visibility and search engine ranking.
+						</p> 
+						
+					</div> 
+				</div> 
+			</div> 
+			<div class="my-row"> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-quote-left"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Content Writting 
+						</h3> 
+						<p class="small-para"> 
+							I excel in content writing, with experience in various formats and platforms:
+
+Scriptwriting and Blog Writing: Created engaging scripts and blog posts, tailoring content to specific audiences.
+Social Media Content Development: Increased engagement through targeted content campaigns for KL Radio.
+Communication Skills: Excellent written and verbal communication skills, ensuring clear and effective content delivery.
+						</p> 
+						
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fab fa-wordpress-simple"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							WordPress Dev 
+						</h3> 
+						<p class="small-para"> 
+													 
+						I have practical experience in WordPress development, focusing on customizing and managing WordPress sites:
+
+Theme Customization: Basic skills in modifying and customizing WordPress themes to meet specific requirements.
+Plugin Integration: Experience in integrating and configuring plugins to enhance site functionality.
+Content Management: Proficient in using WordPress for creating and managing website content.
+                     </p>
+					</div> 
+				</div> 
+				<div class="my-col"> 
+					<div class="my-card"> 
+						<div class="icon"> 
+							<i class="fas fa-video"></i> 
+						</div> 
+						<h3 class="greet-heading blue-text"> 
+							Video Editing 
+						</h3> 
+						<p class="small-para"> 
+							In addition to my web development skills, I have experience in video editing, which complements my content creation abilities:
+
+Video Editing Software: Basic understanding of video editing tools and software, enhancing my ability to produce engaging video content.
+Photo and Video Editing: Created and edited visual content for various projects, including promotional materials for KL Radio.
+Adobe Creative Suite: Basic proficiency, allowing me to enhance video content with creative elements.
+						</p> 
+						
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+
+	<!-- Contact me section -->
+	<section class="contact" id="contact"> 
+		<div class="contact-heading"> 
+			<h1 class="my-heading text-center">Contact Me</h1> 
+		</div> 
+		<div class="contact-content"> 
+			<div class="contact-form-container"> 
+				<h1 class="greet-heading">Get In Touch</h1> 
+				<form class="contact-form"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Name"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Email"> 
+					<input class="form-controls" type="text"
+						placeholder="Your Phone"> 
+					<textarea class="form-controls"
+							placeholder="Write your message"
+							name="message" id="" cols="30"
+							rows="10"> 
+					</textarea> 
+					<input class="form-btn btn common-btn"
+						type="submit" value="Send Message"> 
+				</form> 
+			</div> 
+			<div class="contact-details"> 
+				<h1 class="greet-heading">My Contact Details</h1> 
+				<div class="details"> 
+					<h5 class="contact-heading">EMAIL</h5> 
+					<p class="contact-text">bhanuprakashbp08@gmail.com</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">PHONE</h5> 
+					<p class="contact-text">+91 9063968320</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">FAX</h5> 
+					<p class="contact-text">+91 7396818485</p> 
+				</div> 
+				<div class="details"> 
+					<h5 class="contact-heading">ADDRESS</h5> 
+					<p class="contact-text">MIG-1/95 D.No. 31-36-133,</p> 
+					<p>Rajeev Nagar,Kurmannapalem,</p> 
+					<p>Visakhapatnam- 530046</p> 
+				</div> 
+			</div> 
+		</div> 
+	</section> 
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				| 
+				This portfolio website template is created 
+				by BhanuPrakash. 
+			</h4> 
+			<div class="social-links"> 
+				<div class="footer-menu"> 
+					<ul class="footer-menu-list"> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.facebook.com/devarapu.bhanuprakash?mibextid=JRoKGi"> 
+								<i class="fab fa-facebook-f"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://x.com/NANImoveinstyle?t=LferNLV8D6m4hvj0nf5rUQ&s=09"> 
+								<i class="fab fa-twitter"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.instagram.com/nanimoveinstyle/"> 
+								<i class="fab fa-instagram"></i> 
+							</a> 
+						</li> 
+						<li class="footer-list-items"> 
+							<a class="footer-links" href="https://www.linkedin.com/in/devarapu-bhanu-prakash-b4048b309/"> 
+								<i class="fab fa-linkedin-in"></i> 
+							</a> 
+						</li> 
+					</ul> 
+				</div> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
